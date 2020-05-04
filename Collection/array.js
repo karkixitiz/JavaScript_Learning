@@ -1,3 +1,21 @@
+//const can not be declare without initializing
+// const a;
+// a=2
+// console.log(a) // generate error in runtime
+
+// const can not be converted one data type to another
+// const a=2
+// a='kiran'
+// console.log(a)
+
+//example Operator
+let numberOfCats = 10;
+numberOfCats += 5;
+numberOfCats /= 3;
+numberOfCats++;
+console.log(numberOfCats)
+
+//example Array
 let guests=['kiran','ramu','sangam']
 guests.unshift('deepak')//push,unshift,pop
 guests.pop() //remove last element from list
